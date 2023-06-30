@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Portfolio - Mariana Serra</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mariana Carolina Batista Serra</h1>
+        <h2>Portfólio</h2>
+        <p>Seja bem vindo ao meu portfólio pessoal</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="#inicio"><strong>Início</strong></a></li>
+            <li> <a href="#projetos"><strong>Projetos</strong></a></li>
+            <li> <a href="#sobre"><strong>Sobre</strong></a></li>
+            <li> <a href="#contato"><strong>Contato</strong></a></li>
+        </ul>
+    </nav>
+    
+
+    <main>
+        <section id="inicio">
+            <h2>Início</h2>
+            <p>Olá! Meu nome é Mariana, e sou uma web designer apaixonada por criar experiências visuais incríveis.</p>
+            <p> Abaixo você verá alguns de meus projetos.</p>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <article >
+                <h3>Projeto 1</h3>
+                <div class="proj1">
+                <img src="projeto1.jpg" alt="Projeto 1 - Noticias">
+                <div class="desc1">
+                <p><b>Descrição do Projeto 1:</b></p>
+                <p> Este projeto, conta com a vivência em HTML, 
+                    baseada em uma notícia retirada de um site. Aqui, podemos notar onde cada
+                    seção está situada, assim como o posicionamento delas. Para observar não 
+                    apenas seu código, como também seu designer, clique em "Saiba Mais".</p>
+                <a target="_blank" href="https://drive.google.com/file/d/1XjaB04XpCmUjBggYpVy8NJ6ZXQ5qpHUv/view?usp=sharing"> Saiba mais</a>
+            </div>
+            </article>
+            <hr>
+            <article >
+                <h3>Projeto 2</h3>
+                <div class="proj2">
+                <img src="projeto2.jpg" alt="Projeto 2 - Exercício 1">
+                <div class="desc2">
+                    <p><b>Descrição do Projeto 2:</b></p>
+                    <p> Neste trabalho apresentado, é possível observar HTML, CSS e JavaScript 
+                    sendo executados juntos. No caso, a cada horário em que o site for acionado,
+                    aparecerá a imagem de uma manhã, um entardecer, e uma noite. Para observar não
+                    apenas o código, como também a funcionalidade, clique em "Saiba Mais".</p>
+                <a target="_blank" href="https://drive.google.com/file/d/1GI6tLWOCNPpHoGJmxd_JGt4Tw8osaDAv/view?usp=sharing"> Saiba mais</a>
+            </div>
+            </article>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <img id="mari" src="mariana.jpg" widht="150" height="180" alt="Minha Foto">
+            <p id="eu"> Formada em WebDesigner Front-End pela Escola SENAI 7.91 - Botucatu, tenho ampla experiência com
+                conteúdos, estilizações e funcionalidades.</p>
+            <p id="eu"> Minhas principais habilidades incluem HTML, CSS e JavaScript, além de Edição de Imagens.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="form-contato" action="agradecimento.html" onsubmit= "return validar()">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> &copy; 2023 Mariana Serra. Todos os direitos reservados.</p>
+        <ul>
+            <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/in/mariana-serra-1a760b125/"> </a></li>
+            <li><a class="whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=5514996920390&text=ol%C3%A1%20me%20chame%20"></a></li>
+            <li><a  class="facebook" target="_blank" href="https://www.facebook.com/mariana.serra.167"></a></li>
+        </ul>
+    </footer>
+
+    <script src="portfolio.js">
+
+    </script>
+
+</body>
+
+</html>
